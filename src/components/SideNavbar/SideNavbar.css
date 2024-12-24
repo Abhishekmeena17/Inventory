@@ -1,6 +1,5 @@
 .side-navbar{
-    display: flex;
-    flex-direction: column;
+    display: none;
     height: 100vh;
     width: 4rem;
     justify-content:space-between;
@@ -11,8 +10,9 @@
     background-color: white;
     position: fixed;
 
-    @media (max-width: 400px) {
-        display: none;
+    @media (min-width: 400px) {
+        display: flex;
+        flex-direction: column;
     }
 
 }
