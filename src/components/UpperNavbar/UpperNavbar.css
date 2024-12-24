@@ -1,0 +1,72 @@
+.upper-navbar{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: white;
+   padding-left: 3rem;
+   padding-right: 3rem;
+  
+   
+
+   @media (max-width: 550px) {
+    padding-left: 1rem;
+   padding-right: 1rem;
+}
+}
+
+.upper-nav-logo{
+    display: none;
+
+    @media (max-width: 400px) {
+       display: contents;
+    }
+}
+
+.upper-nav-logo img{
+    height: 20px;
+    width: 20px;
+}
+.upper-navbar .main-heading h2{
+    font-weight: 500;
+   
+    @media (max-width: 550px) {
+        font-size: 18px;
+    }
+
+}
+.upper-nav-right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+
+    @media (max-width: 550px) {
+        gap: 3px;
+    }
+   
+}
+
+.shops{
+    border: transparent;
+    background-color: #FEF5EA;
+    padding: 8px;
+    border-radius: 6px;
+    @media (max-width: 550px) {
+        font-size: 10px;
+    }
+}
+
+.notification-icon img{
+    @media (max-width: 550px) {
+        height: 20px;
+        width: 20px;
+    }
+}
+.profile-icon img{
+    @media (max-width: 550px) {
+        height: 20px;
+        width: 20px;
+    }
+}
+

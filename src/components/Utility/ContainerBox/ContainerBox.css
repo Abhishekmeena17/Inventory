@@ -1,0 +1,96 @@
+.container-box{
+    height: 145px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 1rem;
+
+   
+}
+.big-container-box{
+    width: 49%;
+
+    @media (max-width: 750px) {
+        width: 100%;
+    }
+
+}
+
+.small-container-box{
+    width: 100%;
+    margin-bottom: 2rem;
+
+    @media (max-width: 750px) {
+        width: 100%;
+    }
+
+}
+
+.medium-container-box{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.blue{
+    background-color: #5570F1;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: #8B8D97;
+
+}
+
+
+.container-box-upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-box-lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-lower-values{
+    display: flex;
+    flex-direction: column;
+}
+
+.value2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.box-lower-values p{
+   font-size: 12px;
+}
+.red{
+    background-color: white;
+    color: rgb(247, 55, 55);
+}
+
+.box-upper-icon{
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.iconBack-orange{
+    background: #FFCC9129;
+    color: red;
+
+}
+.iconBack-blue{
+    background: #FFFFFF29;
+
+
+}

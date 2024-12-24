@@ -1,0 +1,26 @@
+.btn{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    padding-left: 14px ;
+    padding-right: 14px ;
+    border: transparent;
+    border-radius: 8px;
+    color: white;
+
+    @media (max-width: 550px) {
+        font-size: 8px;
+    }
+}
+
+.blue{
+    background-color: #5570F1;
+}
+
+.black{
+    background-color: black;
+}
+
+.red-back{
+    background-color: rgb(167, 63, 29);
+}

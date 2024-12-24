@@ -1,0 +1,49 @@
+.side-navbar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 4rem;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 4px;
+    background-color: white;
+    position: fixed;
+
+    @media (max-width: 400px) {
+        display: none;
+    }
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.menu-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.menu-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+} 
+.menu-icon{
+    height: 56px;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+ #folder{
+    background-color: #5570F1;
+}

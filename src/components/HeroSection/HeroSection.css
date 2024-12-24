@@ -1,0 +1,25 @@
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    align-items: center;
+    height: 4rem;
+    color: #45464E;
+    
+    @media (max-width: 550px) {
+        padding-left: 1rem;
+       padding-right: 1rem;
+       font-size: 14px;
+    }
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 5px;
+    
+    @media (max-width: 550px) {
+       display: flex;
+       flex-direction: column;
+    }
+}
