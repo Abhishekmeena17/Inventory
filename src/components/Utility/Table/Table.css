@@ -17,46 +17,43 @@ table, th{
 }
 
 .username{
-    display: none;
-    @media (min-width: 1024px) {
-       display: contents;      
-    }
+    
+    @media (max-width: 1024px) {
+        display: none;
+}
 }
 
 .columns{
-    display: none;
-    @media (min-width: 780px) {
-       display: contents;      
+   
+    @media (max-width: 780px) {
+        display: none;   
     }
 }
 
 .status{
-  display: contents;
 
-    @media (min-width: 440px) {
-        display: contents;      
+    @media (max-width: 440px) {
+        display: none;      
      }
 }
 
 .details{
-    display: none;
     margin-top: 5px;
+    display: flex;
+    justify-content: center;
 
-    @media (min-width: 1024px) {
-        display: flex;
-        justify-content: center;
-       
 
-        
+    @media (max-width: 1024px) {
+        display: none;      
     }
 }
 
 .flex-column{
+    align-items: center; 
    
-    flex-direction: column;
-    align-items: normal;
-    @media (min-width: 638px) {
-        align-items: center; 
+    @media (max-width: 638px) {
+        flex-direction: column;
+        align-items: normal;
     }
 
 }
